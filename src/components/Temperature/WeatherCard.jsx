@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardContent, Typography, Grid } from '@material-ui/core';
+import { CardContent, Typography, Grid, Card } from '@material-ui/core';
 
 import styles from './Cards.module.css';
 
@@ -11,7 +11,7 @@ const WeatherCard = props => {
     height: '45vw',
   };
   return (
-    <Grid item xs={12} md={3} component={WeatherCard} className={styles.card}>
+    <Grid item xs={12} md={3} component={Card} className={styles.card}>
       <CardContent>
         <Typography variant='h3'>Day</Typography>
       </CardContent>

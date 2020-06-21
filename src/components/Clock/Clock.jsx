@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import 'fontsource-roboto';
 import { Typography } from '@material-ui/core';
 
 const Clock = () => {
-  let time = new Date();
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    let timeID = setInterval(() => tick(), 1000);
+    return function cleanup() {
+      clearInterval(timeID);
+    };
+  });
+
+  const tick = () => {
+    setTime(new Date());
+  };
+
   return (
     <>
-      <Typography variant='h1' gutterBottom>
-        {time.getHours() + ':' + time.getMinutes()}
+      <Typography variant='h3' gutterBottom>
+        {time.toLocaleTimeString()}
       </Typography>
-      <Typography variant='h2' gutterBottom>
-        {time.getMonth() + '/' + time.getFullYear()}
+      <Typography variant='h3' gutterBottom>
+        {time.getMonth() + '/' + time.getDate() + '/' + time.getFullYear()}
       </Typography>
     </>
   );
