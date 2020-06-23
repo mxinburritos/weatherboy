@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a09143a4a6233cac035efee20d2c1be9",
+    "revision": "ea84c0b57bb88e4c89348a45a861bc4c",
     "url": "/weatherboy/index.html"
   },
   {
-    "revision": "eabdec5ce084833d8fa3",
+    "revision": "1480d22d319ab42727e8",
     "url": "/weatherboy/static/css/2.c9ad3d3e.chunk.css"
   },
   {
-    "revision": "593b2ea0648082bdb432",
+    "revision": "f07945f7a83363f6a005",
     "url": "/weatherboy/static/css/main.dca5af65.chunk.css"
   },
   {
-    "revision": "eabdec5ce084833d8fa3",
-    "url": "/weatherboy/static/js/2.b654f119.chunk.js"
+    "revision": "1480d22d319ab42727e8",
+    "url": "/weatherboy/static/js/2.3e0e0520.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/weatherboy/static/js/2.b654f119.chunk.js.LICENSE.txt"
+    "url": "/weatherboy/static/js/2.3e0e0520.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "593b2ea0648082bdb432",
-    "url": "/weatherboy/static/js/main.2cbb77a9.chunk.js"
+    "revision": "f07945f7a83363f6a005",
+    "url": "/weatherboy/static/js/main.3dee2ebc.chunk.js"
   },
   {
     "revision": "df56f6262ccc921095a4",
