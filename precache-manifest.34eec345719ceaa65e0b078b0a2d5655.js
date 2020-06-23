@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80eef9d23fc1871446b5e843ca8964ed",
+    "revision": "a09143a4a6233cac035efee20d2c1be9",
     "url": "/weatherboy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weatherboy/static/css/2.c9ad3d3e.chunk.css"
   },
   {
-    "revision": "48494541e420e3071bf7",
+    "revision": "593b2ea0648082bdb432",
     "url": "/weatherboy/static/css/main.dca5af65.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weatherboy/static/js/2.b654f119.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48494541e420e3071bf7",
-    "url": "/weatherboy/static/js/main.bb5e0a1a.chunk.js"
+    "revision": "593b2ea0648082bdb432",
+    "url": "/weatherboy/static/js/main.2cbb77a9.chunk.js"
   },
   {
     "revision": "df56f6262ccc921095a4",

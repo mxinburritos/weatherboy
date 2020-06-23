@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weatherboy/static/css/main.dca5af65.chunk.css",
-    "main.js": "/weatherboy/static/js/main.bb5e0a1a.chunk.js",
-    "main.js.map": "/weatherboy/static/js/main.bb5e0a1a.chunk.js.map",
+    "main.js": "/weatherboy/static/js/main.2cbb77a9.chunk.js",
+    "main.js.map": "/weatherboy/static/js/main.2cbb77a9.chunk.js.map",
     "runtime-main.js": "/weatherboy/static/js/runtime-main.8ccf932b.js",
     "runtime-main.js.map": "/weatherboy/static/js/runtime-main.8ccf932b.js.map",
     "static/css/2.c9ad3d3e.chunk.css": "/weatherboy/static/css/2.c9ad3d3e.chunk.css",
     "static/js/2.b654f119.chunk.js": "/weatherboy/static/js/2.b654f119.chunk.js",
     "static/js/2.b654f119.chunk.js.map": "/weatherboy/static/js/2.b654f119.chunk.js.map",
     "index.html": "/weatherboy/index.html",
-    "precache-manifest.dce9a2d25f1ec91d1fde373da9f0fee1.js": "/weatherboy/precache-manifest.dce9a2d25f1ec91d1fde373da9f0fee1.js",
+    "precache-manifest.34eec345719ceaa65e0b078b0a2d5655.js": "/weatherboy/precache-manifest.34eec345719ceaa65e0b078b0a2d5655.js",
     "service-worker.js": "/weatherboy/service-worker.js",
     "static/css/2.c9ad3d3e.chunk.css.map": "/weatherboy/static/css/2.c9ad3d3e.chunk.css.map",
     "static/css/main.dca5af65.chunk.css.map": "/weatherboy/static/css/main.dca5af65.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.c9ad3d3e.chunk.css",
     "static/js/2.b654f119.chunk.js",
     "static/css/main.dca5af65.chunk.css",
-    "static/js/main.bb5e0a1a.chunk.js"
+    "static/js/main.2cbb77a9.chunk.js"
   ]
 }
