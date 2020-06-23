@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Card, Typography, Grid } from '@material-ui/core';
 
 const TransparentCard = styled(Card)`
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 0.5em;
   margin: 1em;
   height: 30vh;

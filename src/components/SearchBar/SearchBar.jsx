@@ -10,7 +10,7 @@ const SearchForm = styled.form`
 `;
 
 const TransparentPaper = styled(Paper)`
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 2em;
 `;
 
