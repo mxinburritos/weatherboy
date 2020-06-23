@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/weatherboy/static/css/main.dca5af65.chunk.css",
+    "main.js": "/weatherboy/static/js/main.bb5e0a1a.chunk.js",
+    "main.js.map": "/weatherboy/static/js/main.bb5e0a1a.chunk.js.map",
+    "runtime-main.js": "/weatherboy/static/js/runtime-main.8ccf932b.js",
+    "runtime-main.js.map": "/weatherboy/static/js/runtime-main.8ccf932b.js.map",
+    "static/css/2.c9ad3d3e.chunk.css": "/weatherboy/static/css/2.c9ad3d3e.chunk.css",
+    "static/js/2.b654f119.chunk.js": "/weatherboy/static/js/2.b654f119.chunk.js",
+    "static/js/2.b654f119.chunk.js.map": "/weatherboy/static/js/2.b654f119.chunk.js.map",
+    "index.html": "/weatherboy/index.html",
+    "precache-manifest.dce9a2d25f1ec91d1fde373da9f0fee1.js": "/weatherboy/precache-manifest.dce9a2d25f1ec91d1fde373da9f0fee1.js",
+    "service-worker.js": "/weatherboy/service-worker.js",
+    "static/css/2.c9ad3d3e.chunk.css.map": "/weatherboy/static/css/2.c9ad3d3e.chunk.css.map",
+    "static/css/main.dca5af65.chunk.css.map": "/weatherboy/static/css/main.dca5af65.chunk.css.map",
+    "static/js/2.b654f119.chunk.js.LICENSE.txt": "/weatherboy/static/js/2.b654f119.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/weatherboy/static/media/Tokyo.a529f16b.jpg",
+    "static/media/index.css": "/weatherboy/static/media/roboto-latin-900-normal.bb1e4dc6.woff",
+    "static/media/weather-icons.min.css": "/weatherboy/static/media/weathericons-regular-webfont.ecaf8b48.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ccf932b.js",
+    "static/css/2.c9ad3d3e.chunk.css",
+    "static/js/2.b654f119.chunk.js",
+    "static/css/main.dca5af65.chunk.css",
+    "static/js/main.bb5e0a1a.chunk.js"
+  ]
+}
