@@ -1,17 +1,16 @@
 import React from 'react';
 import { CardContent, Typography, Grid, Card } from '@material-ui/core';
+import styled from 'styled-components';
 
-import styles from './Cards.module.css';
+const TransparentCard = styled(Card)`
+  background-color: rgba(255, 255, 255, 0.2);
+  alignitems: center;
+  justify-content: center;
+`;
 
 const WeatherCard = props => {
-  let cardStyle = {
-    display: 'block',
-    width: '30vw',
-    transitionDuration: '0.3s',
-    height: '45vw',
-  };
   return (
-    <Grid item xs={12} md={3} component={Card} className={styles.card}>
+    <Grid item xs={12} md={3} component={TransparentCard}>
       <CardContent>
         <Typography variant='h3'>Day</Typography>
       </CardContent>
