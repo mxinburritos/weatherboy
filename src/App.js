@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Box, Card, Typography, Grid } from '@material-ui/core';
 import styles from './App.module.css';
 import cx from 'classnames';
-import { createGlobalStyle } from 'styled-components';
 import FadeIn from 'react-fade-in';
 import Fade from '@material-ui/core/Fade';
 import { Motion, spring } from 'react-motion';
@@ -10,10 +9,6 @@ import { Motion, spring } from 'react-motion';
 import { Info, Cards, SearchBar, Error, Forecast } from './components';
 import { fetchData, fetchForecastData } from './api';
 import { faBookDead } from '@fortawesome/free-solid-svg-icons';
-
-const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-`;
 
 const App = () => {
   const [cityData, setCityData] = useState({});
