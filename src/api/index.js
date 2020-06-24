@@ -4,6 +4,8 @@ const DEFAULT_URL_1 =
   'https://api.openweathermap.org/data/2.5/weather?q=tokyo&appid=3155c804170271132c11d1db77cedef0';
 const DEFAULT_URL_2 =
   'https://api.openweathermap.org/data/2.5/onecall?lat=35.692&lon=139.69&%20exclude=current,hourly&appid=3155c804170271132c11d1db77cedef0';
+const DEFAULT_URL_3 =
+  'https://api.teleport.org/api/urban_areas/slug:tokyo/images/';
 const url = 'https://api.openweathermap.org/data/2.5/';
 const API_KEY = '3155c804170271132c11d1db77cedef0';
 
@@ -38,5 +40,3 @@ export const fetchForecastData = async (lat, lon) => {
     return error;
   }
 };
-
-export const fetchBackgroundPhot0 = async city => {};

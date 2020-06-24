@@ -13,6 +13,7 @@ const TransparentCard = styled(Card)`
 const LargeIcon = styled.i`
   margin-top: 0.1em;
   font-size: 5em;
+  margin-bottom: 0.3em;
 `;
 
 const getDay = timestamp => {
@@ -69,6 +70,10 @@ const Forecast = ({ data }) => {
                 <LargeIcon
                   className={`wi wi-owm-${day.weather[0].id}`}
                 ></LargeIcon>
+                <Typography variant='subtitle'>
+                  {day.weather[0].description.charAt(0).toUpperCase() +
+                    day.weather[0].description.slice(1)}
+                </Typography>
               </div>
             </TransparentCard>
           </Grid>

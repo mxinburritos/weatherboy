@@ -33,19 +33,19 @@ const Info = ({ data }) => {
   });
 
   const tick = () => {
-    setTime(new Date());
+    let utc = new Date().getTime();
+    setTime(new Date(utc + data.timezone));
   };
 
   if (!data.name) {
     return <FormatLoader />;
-  } else {
   }
 
   return (
     <TransparentCard>
       <Typography variant='h6'>
         {time.toLocaleTimeString() + ' '}
-        {time.getMonth() + '/' + time.getDate() + '/' + time.getFullYear()}
+        {time.getMonth() + 1 + '/' + time.getDate() + '/' + time.getFullYear()}
       </Typography>
       <Typography variant='h3'>{data.name}</Typography>
       <Typography variant='h1'>
