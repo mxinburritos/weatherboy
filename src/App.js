@@ -13,7 +13,6 @@ import { faBookDead } from '@fortawesome/free-solid-svg-icons';
 import Tokyo from './assets/Tokyo.jpg';
 import unsplash from './api/unsplash';
 
-<<<<<<< HEAD
 let url = 'https://source.unsplash.com/1920x1080/?$tokyo%20city';
 
 const BackgroundPicture = styled.div`
@@ -33,8 +32,6 @@ const BackgroundPicture = styled.div`
   background-size: cover;
 `;
 
-=======
->>>>>>> 4d8062b60049475511e14fa1512af9c8a6dcca59
 const App = () => {
   const [cityData, setCityData] = useState({});
   const [forecastData, setForecastData] = useState({});
